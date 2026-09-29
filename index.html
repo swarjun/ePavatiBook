@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ePavatiBook — receipts for NGOs, institutions and doctors</title>
+<meta name="description" content="ePavatiBook is a simple app for NGOs, trusts, institutions and clinics to create, store and share receipts (pavat) — works offline, syncs to the cloud, and prints A5 PDFs.">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a2226;
+    --muted: #5a6b73;
+    --brand: #1a3540;
+    --border: #e2e6e9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1417;
+      --card: #161d21;
+      --text: #e6ecef;
+      --muted: #9fb0b8;
+      --brand: #7fb3c4;
+      --border: #263036;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 32px 16px 64px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 28px; }
+  header h1 { font-size: 2rem; margin: 0 0 6px; }
+  header .tagline { color: var(--muted); font-size: 1.05rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin-bottom: 20px;
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 12px; color: var(--brand); }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin: 8px 0; }
+  a { color: var(--brand); }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .links a {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color .15s ease;
+  }
+  .links a:hover { border-color: var(--brand); }
+  .links a strong { display: block; color: var(--brand); margin-bottom: 2px; }
+  .links a span { color: var(--muted); font-size: .9rem; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: .85rem;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ePavatiBook</h1>
+    <div class="tagline">Easy receipts &amp; reports for NGOs, institutions and doctors</div>
+  </header>
+
+  <div class="card">
+    <p>
+      ePavatiBook helps organisations such as NGOs, trusts, institutions and
+      clinics create and manage receipts (<em>pavat</em>). Enter the payer's
+      details, choose a receipt type, and generate a clean, shareable and
+      printable A5 PDF in seconds — on your phone, tablet or desktop.
+    </p>
+    <h2>What you can do</h2>
+    <ul>
+      <li>Create numbered receipts with automatic or manual numbering.</li>
+      <li>Keep a directory of your donors, patients or customers.</li>
+      <li>Filter and export reports to PDF or Excel.</li>
+      <li>Work fully offline; sign in to back up and sync across devices.</li>
+      <li>Use the app in English, Marathi (मराठी) or Hindi (हिन्दी).</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Legal &amp; support</h2>
+    <div class="links">
+      <a href="support.html">
+        <strong>Support</strong>
+        <span>Help, FAQs and how to reach us</span>
+      </a>
+      <a href="privacy-policy.html">
+        <strong>Privacy Policy</strong>
+        <span>What data we handle and how</span>
+      </a>
+      <a href="terms-of-service.html">
+        <strong>Terms of Service</strong>
+        <span>The terms for using the app</span>
+      </a>
+      <a href="delete-account.html">
+        <strong>Delete Account</strong>
+        <span>Remove your account and data</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>© 2026 ePavatiBook · Swarjun Tech. All rights reserved.</footer>
+</div>
+</body>
+</html>
