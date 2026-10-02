@@ -32,6 +32,8 @@
     padding: 32px 16px 64px;
   }
   .wrap { max-width: 760px; margin: 0 auto; }
+  .back { display: inline-block; color: var(--muted); text-decoration: none; font-size: .9rem; margin-bottom: 16px; }
+  .back:hover { color: var(--brand); }
   header { margin-bottom: 8px; }
   header h1 { font-size: 1.6rem; margin: 0; }
   header .app { color: var(--muted); font-size: .95rem; margin-top: 4px; }
@@ -67,9 +69,10 @@
 </head>
 <body>
 <div class="wrap">
+  <a class="back" href="index.html">← ePavatiBook</a>
   <header>
     <h1>Privacy Policy</h1>
-    <div class="app">ePavatiBook — receipts for NGOs, Trusts, institutions and doctors</div>
+    <div class="app">ePavatiBook — receipts for NGOs, institutions and doctors</div>
   </header>
   <p class="updated">Last updated: 8 July 2026</p>
 
@@ -103,12 +106,13 @@
     <ul>
       <li><strong>On your device</strong> — all data is stored locally on your
         device so the app works fully offline.</li>
-      <li><strong>In the cloud (only if you sign in)</strong> — your
-        organisation profile and receipts are backed up and synced to Google
-        Firebase (Cloud Firestore and Firebase Authentication) so you can
-        restore them and use multiple devices.</li>
-      <li><strong>Local / guest mode</strong> — if you use the app without
-        signing in, your data stays on your device and is never uploaded.</li>
+      <li><strong>In the cloud (Prime accounts)</strong> — if you are signed in
+        to a Prime account, your organisation profile and receipts are backed up
+        and synced to Google Firebase (Cloud Firestore and Firebase
+        Authentication) so you can restore them and use them on your devices.</li>
+      <li><strong>Free and guest accounts</strong> — if you use the free
+        (Normal) plan or the app without signing in, your data stays on your
+        device and is not uploaded.</li>
     </ul>
 
     <h2>3. How we use your data</h2>
@@ -147,7 +151,7 @@
       <li>In the app: open the <strong>Account</strong> tab and tap
         <strong>Delete account</strong>.</li>
       <li>Or see our
-        <a href="ePavatiBook-delete-account.html">account deletion page</a>, or
+        <a href="delete-account.html">account deletion page</a>, or
         email us at
         <a href="mailto:swarjuntech@outlook.com">swarjuntech@outlook.com</a>.</li>
     </ul>
@@ -181,7 +185,8 @@
     <h2>10. Contact us</h2>
     <p>
       Questions about this policy or your data? Email
-      <a href="mailto:swarjuntech@outlook.com">swarjuntech@outlook.com</a>.
+      <a href="mailto:swarjuntech@outlook.com">swarjuntech@outlook.com</a>, or
+      read our <a href="terms-of-service.html">Terms of Service</a>.
     </p>
   </div>
 
